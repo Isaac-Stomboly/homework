@@ -28,7 +28,23 @@ img {
   height: auto;
   margin: 0 0 10px 0;
 }
-
+.col1, .col2, .col3 {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+.col3 {
+	margin-right:0%
+}
+.main-content {
+	width: 65%;
+	float: left;
+	margin-right: 5%
+}
+.sidebar {
+	width: 30%;
+	float: left;
+}
 .sidebox-1 {
   background-color: #9bdaef;
   padding: 20px;
@@ -43,6 +59,8 @@ img {
   margin: 0 0 15px 0;
 }
 
-.sidebox-1 {
-  display: none;
+.clearfix:after {
+  content: "";
+  display: block;
+  clear:both;
 }
